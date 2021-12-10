@@ -22,8 +22,8 @@ import multiprocessing as mp
 # In[12]:
 
 
-df_temp = pd.read_csv('train.csv')
-df_uniq = pd.read_csv('unique_m.csv')
+df_temp = pd.read_csv('train.csv').iloc[:100,:]
+df_uniq = pd.read_csv('unique_m.csv').iloc[:100,:]
 
 
 # In[13]:
