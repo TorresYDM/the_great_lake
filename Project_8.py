@@ -154,7 +154,7 @@ def multicore():
 # In[3]:
 
 
-multicore()
+df_mse = multicore()
 
 
 # In[172]:
