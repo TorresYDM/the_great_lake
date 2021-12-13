@@ -5,7 +5,7 @@
 # 79: -------------------------------------------------------------------------
 
 # slurm options: --------------------------------------------------------------
-#SBATCH --job-name=Project_8.py
+#SBATCH --job-name=test.py
 #SBATCH --mail-user=dongming@umich.edu
 #SBATCH --mail-type=BEGIN,END
 #SBATCH --cpus-per-task=5
@@ -30,7 +30,7 @@ cat run-Project_8.sh
 date
 
 cd /home/dongming/stats_507/the_great_lake
-python Project_8.py $n_procs
+python test.py $n_procs
 
 date
 echo "Done."
